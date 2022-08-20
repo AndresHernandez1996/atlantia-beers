@@ -23,3 +23,5 @@ export const apiMatrix = {
     "https://atlantia-dev-test.herokuapp.com/api/presence-share-chart/",
   beerProducts: "https://atlantia-dev-test.herokuapp.com/api/beer-products/",
 }
+
+export const DEFAULT_TABLE_SIZE = 5

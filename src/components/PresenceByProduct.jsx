@@ -11,7 +11,7 @@ import { apiMatrix } from "../commons/constants"
 //Entities
 import PresenceProductIn from "../Entities/PresenceProductIn"
 
-import { Card, Col, Row, Typography } from "antd"
+import { Card, Typography } from "antd"
 const { Title } = Typography
 
 const PresenceByProduct = () => {
@@ -32,12 +32,8 @@ const PresenceByProduct = () => {
   return (
     <>
       <Title level={3}>Presence Share By Product</Title>
-      <Card bordered={false}>
-        <Row justify="center" align="middle">
-          <Col>
-            <Chart options={options} series={series} type="pie" width={380} />
-          </Col>
-        </Row>
+      <Card bordered={false} className="presenceGraph">
+        <Chart options={options} series={series} type="pie" height={320} />
       </Card>
     </>
   )

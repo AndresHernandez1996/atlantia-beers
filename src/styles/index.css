@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ant-layout {
+  background-color: #f0f6ff;
+}
+.ant-layout-header {
+  background-color: #016fff;
+}
+.ant-menu-horizontal {
+  border-bottom: 1px solid #016fff;
+}
+.ant-menu-title-content {
+  color: white;
+}
+.presenceGraph {
+  height: 413px;
+}
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: white;
+}
+.ant-menu-horizontal > .ant-menu-item a {
+  color: white;
+}
+.ant-menu {
+  background: #016fff;
+}
+.footerLayout {
+  text-align: center;
+}
+.ant-table-thead > tr > th {
+  background: #a6a6a7;
+}
+.layout__content {
+  padding: 20px;
+}
+.redPresence {
+  color: #d6215b;
+}
+.greenPresence {
+  color: #23b794;
+}
+.mb-1 {
+  margin-bottom: 8px;
+}
+.mt-1 {
+  margin-top: 8px;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.my-1 {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.my-2 {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}

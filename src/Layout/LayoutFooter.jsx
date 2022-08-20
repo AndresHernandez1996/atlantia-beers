@@ -6,8 +6,8 @@ const { Footer } = Layout
 const LayoutFooter = () => {
   return (
     <Footer>
-      <Row justify="center">
-        <Col>Atlantia Beers made by Andrés Hernández</Col>
+      <Row justify="center" className="footerLayout">
+        <Col>Atlantia Beers made by Andrés Hernández.</Col>
       </Row>
     </Footer>
   )

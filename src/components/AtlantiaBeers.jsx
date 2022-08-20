@@ -11,15 +11,19 @@ const { Title } = Typography
 const AtlantiaBeers = () => {
   return (
     <>
-      <Title level={2}>General Performance Analysis</Title>
-      <Row gutter={[20, 20]}>
-        <Col xl={16}>
+      <Title level={2} className="my-1">
+        General Performance Analysis
+      </Title>
+      <Row gutter={[20, 20]} className="mb-1">
+        <Col xl={15} md={12} sm={24} xs={24}>
           <PriceEvolution />
         </Col>
-        <Col xl={8}>
+        <Col xl={9} md={12} sm={24} xs={24}>
           <PresenceByProduct />
         </Col>
-        <Col xl={24}>
+      </Row>
+      <Row>
+        <Col xl={24} md={24} xs={24}>
           <ComparativeAnalytics />
         </Col>
       </Row>
