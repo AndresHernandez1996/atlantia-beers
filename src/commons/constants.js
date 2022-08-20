@@ -15,3 +15,11 @@ export const navmMatrix = [
     key: "comparative-analytics",
   },
 ]
+
+export const apiMatrix = {
+  priceEvolutionChart:
+    "https://atlantia-dev-test.herokuapp.com/api/price-evolution-chart/",
+  presenceShareChart:
+    "https://atlantia-dev-test.herokuapp.com/api/presence-share-chart/",
+  beerProducts: "https://atlantia-dev-test.herokuapp.com/api/beer-products/",
+}

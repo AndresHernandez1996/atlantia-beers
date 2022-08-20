@@ -16,9 +16,9 @@ import LayoutFooter from "./Layout/LayoutFooter"
 const App = () => {
   return (
     <Router>
-      <Switch>
-        <Layout>
-          <Navbar />
+      <Layout>
+        <Navbar />
+        <Switch>
           <Route path="/price-evolution">
             <PriceEvolution />
           </Route>
@@ -31,9 +31,9 @@ const App = () => {
           <Route path="/Home">
             <AtlantiaBeers />
           </Route>
-          <LayoutFooter />
-        </Layout>
-      </Switch>
+        </Switch>
+        <LayoutFooter />
+      </Layout>
     </Router>
   )
 }
