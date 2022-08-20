@@ -1,10 +1,10 @@
 import axios from "axios"
 
-const requestApi = (path) => {
+const requestApi = (path, setState) => {
   axios
     .get(path)
     .then((response) => {
-      return response.data
+      return setState(response.data)
     })
     .catch((error) => {
       throw new Error(`An error has been occured 🥺 ${error}`)

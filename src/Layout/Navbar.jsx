@@ -20,6 +20,7 @@ const Navbar = () => {
               preview={false}
               alt="atlantia_search"
               height={63}
+              width={155}
             />
           </Link>
         </Col>

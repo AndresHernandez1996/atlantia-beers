@@ -1,8 +1,5 @@
 import React from "react"
-import { Button, Typography } from "antd"
-
-// Utils
-import requestApi from "../utils/requestApi"
+import { Col, Row, Typography } from "antd"
 
 // Components
 import ComparativeAnalytics from "./ComparativeAnalytics"
@@ -12,18 +9,20 @@ import PriceEvolution from "./PriceEvolution"
 const { Title } = Typography
 
 const AtlantiaBeers = () => {
-  const callApi = () =>
-    requestApi(
-      "https://atlantia-dev-test.herokuapp.com/api/price-evolution-chart/"
-    )
-
   return (
     <>
       <Title level={2}>General Performance Analysis</Title>
-      <Button onClick={() => callApi()}>Click</Button>
-      <PriceEvolution />
-      <PresenceByProduct />
-      <ComparativeAnalytics />
+      <Row gutter={[20, 20]}>
+        <Col xl={16}>
+          <PriceEvolution />
+        </Col>
+        <Col xl={8}>
+          <PresenceByProduct />
+        </Col>
+        <Col xl={24}>
+          <ComparativeAnalytics />
+        </Col>
+      </Row>
     </>
   )
 }
