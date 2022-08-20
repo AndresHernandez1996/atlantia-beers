@@ -17,3 +17,5 @@ Open [http://localhost:3000] It will go by default to the home of the applicatio
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+Checkout here the app => https://mighty-escarpment-76706.herokuapp.com/
