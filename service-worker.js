@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/atlantia-beers.github.io/precache-manifest.150f2862dff0314245a05984d05e0a53.js"
+  "/atlantia-beers.github.io/precache-manifest.23a9a2dcd78ea0cccdb5dcb38d550fef.js"
 );
 
 workbox.clientsClaim();

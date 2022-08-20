@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/atlantia-beers.github.io/static/js/2.2842c845.chunk.js"
   },
   {
-    "revision": "114ba39dbbdd87d2c5289a8568e9c687",
+    "revision": "220d503472bfdd08606b69df85a7f81f",
     "url": "/atlantia-beers.github.io/index.html"
   }
 ];
